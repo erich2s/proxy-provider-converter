@@ -154,60 +154,6 @@ ${urlHost || "egroup"} = select, policy-path=${convertedUrl}
           </div>
         )}
         <div className="w-full text-gray-900 mt-14">
-          <h3 className="text-lg md:text-xl font-bold">
-            怎么自己部署转换工具？
-          </h3>
-          <p className="mt-2">
-            使用工具时，{host}{" "}
-            的拥有者将会有权限查看到你的订阅地址，如果你不想让给他人这种权限，
-            你可以根据下面步骤你可以零成本部署一个属于你的转换工具。
-          </p>
-          <p className="mt-2">
-            {" "}
-            前期准备：你需要一个{" "}
-            <a
-              href="https://github.com"
-              target="_blank"
-              className="text-yellow-600 transition hover:text-yellow-500"
-            >
-              GitHub
-            </a>{" "}
-            账号
-          </p>
-          <ul className="mt-1">
-            <li>
-              1. 打开{" "}
-              <a
-                href="https://github.com/qier222/proxy-provider-converter"
-                target="_blank"
-                className="text-yellow-600 transition hover:text-yellow-500"
-              >
-                https://github.com/qier222/proxy-provider-converter
-              </a>
-            </li>
-            <li>2. 点击右上角的 Fork 按钮</li>
-            <li>
-              3. 打开{" "}
-              <a
-                href="https://vercel.com"
-                target="_blank"
-                className="text-yellow-600 transition hover:text-yellow-500"
-              >
-                Vercel.com
-              </a>
-              ，使用 GitHub 登录。
-            </li>
-            <li>
-              4. 选择 New Project，点击 proxy-provider-converter 旁边的 Import
-              按钮, 点击 PERSONAL ACCOUNT 旁边的 Select，最后点击 Deploy
-            </li>
-            <li>
-              5. 等待部署完成后点击 Vercel 项目面板上的 Visit
-              按钮就可以访问你部署的版本了
-            </li>
-          </ul>
-        </div>
-        <div className="w-full text-gray-900 mt-14">
           <h3 className="text-lg md:text-xl font-bold">资源</h3>
           <ul className="mt-1 list-disc list-inside	">
             <li>

@@ -71,7 +71,7 @@ ${urlHost || "egroup"} = select, policy-path=${convertedUrl}
           <img src="/logo.svg" alt="Logo" className="md:mr-4 h-28" />
           <div>
             <h1 className="text-2xl font-extrabold text-black md:text-5xl">
-              Proxy Provider Converter
+              Proxy Provider Converter (erich2s's fork)
             </h1>
             <p className="mt-2 md:text-lg text-gray-600">
               一个可以将 Clash 订阅转换成 Proxy Provider 和 External
